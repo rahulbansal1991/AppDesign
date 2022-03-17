@@ -13,10 +13,14 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var btnCreateAccount: UIButton!
     @IBOutlet weak var btnShowPassword: UIButton!
     @IBOutlet weak var tfPassword: UITextField!
+    @IBOutlet weak var tfEmail: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tfEmail.addBottomBorder()
+        tfPassword.addBottomBorder()
+        
         btnLogin.roundCorners()
         btnCreateAccount.roundCorners()
     }
