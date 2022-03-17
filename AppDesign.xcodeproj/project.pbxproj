@@ -15,6 +15,7 @@
 		B7368E4C27E0F07A009064CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7368E4A27E0F07A009064CD /* LoginViewController.swift */; };
 		B7368E4F27E15985009064CD /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7368E4E27E15984009064CD /* UITextFieldExtension.swift */; };
 		B7CE153D27E2ABD900C81CCA /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE153C27E2ABD900C81CCA /* UIViewExtension.swift */; };
+		B7CE153F27E2AEB800C81CCA /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE153E27E2AEB800C81CCA /* UINavigationControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B7368E4A27E0F07A009064CD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B7368E4E27E15984009064CD /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		B7CE153C27E2ABD900C81CCA /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		B7CE153E27E2AEB800C81CCA /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		B7368E4D27E15970009064CD /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				B7CE153E27E2AEB800C81CCA /* UINavigationControllerExtension.swift */,
 				B7368E4E27E15984009064CD /* UITextFieldExtension.swift */,
 				B7CE153C27E2ABD900C81CCA /* UIViewExtension.swift */,
 			);
@@ -190,6 +193,7 @@
 				B7368E4F27E15985009064CD /* UITextFieldExtension.swift in Sources */,
 				B7368E4B27E0F07A009064CD /* SignupViewController.swift in Sources */,
 				B7368E1E27E0EA67009064CD /* AppDelegate.swift in Sources */,
+				B7CE153F27E2AEB800C81CCA /* UINavigationControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
