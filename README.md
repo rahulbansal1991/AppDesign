@@ -10,8 +10,13 @@
 
 # Prerequisites
 -Xcode
+-Cocoapods
 
 # Installing
-1.Clone the project to your local machine
+1. Clone the project to your local machine
 
 `git clone https://github.com/rahulbansal1991/AppDesign.git`
+
+2. Install required dependencies
+
+`pod install`
